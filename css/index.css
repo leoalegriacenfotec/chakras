@@ -1,0 +1,844 @@
+html {
+    box-sizing: border-box;
+    font-family: var(--tipografia);
+    font-size: 16px;
+}
+
+
+/*Estilos del header principal*/
+
+.header-principal {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+}
+
+.header-principal .img-cont {
+    display: flex;
+}
+
+#navnav {
+    display: none;
+}
+
+#bars {
+    margin-right: 40px;
+}
+
+#fas {
+    justify-content: right;
+    margin-right: 40px;
+}
+
+
+/*Estilos del banner*/
+
+.sct-banner {
+    display: flow-root;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.sct-banner .img-container img {
+    width: 100%;
+}
+
+
+/*Estilos sct-posters*/
+
+.sct-posters h2 {
+    color: var(--negro);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.sct-posters p {
+    color: var(--gris-b);
+    display: flex;
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.sct-posters .card {
+    border: 1px solid rgba(117, 117, 117, 0.3);
+    border-radius: 12px;
+    color: var(--negro-titulo);
+    margin-bottom: 20px;
+}
+
+.sct-posters span {
+    color: var(--negro);
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin: 20px 40px 40px 120px;
+}
+
+.sct-posters .posters {
+    display: block;
+    width: 80%;
+}
+
+.sct-posters .posters .card .img-container {
+    width: 100%;
+}
+
+.sct-posters .posters .card .img-container img {
+    width: 100%;
+}
+
+.sct-posters #btn {
+    display: flex;
+}
+
+#btn-load {
+    background-color: var(--blanco);
+    border-color: var(--celes-btn);
+    color: var(--celes-btn);
+    font-size: 0.68rem;
+    padding: 7px 9px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+
+/*Estilos sct-trending*/
+
+#btn3 {
+    background-color: var(--blanco);
+    border-color: var(--gris-b);
+    border-radius: 30%;
+    color: var(--gris-b);
+    font-size: 0.875rem;
+    padding: 7px 9px;
+}
+
+.sct-trending h2 {
+    color: var(--negro);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.sct-trending p {
+    color: var(--gris-b);
+    display: block;
+    font-size: 0.87rem;
+    font-weight: bold;
+}
+
+.sct-trending .card {
+    border: 1px solid rgba(117, 117, 117, 0.3);
+    border-radius: 12px;
+    color: var(--negro-titulo);
+    margin-bottom: 20px;
+}
+
+.sct-trending span {
+    color: var(--negro);
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin: 20px 40px 40px 120px;
+}
+
+.sct-trending .trendingprod {
+    display: block;
+    width: 80%;
+}
+
+.sct-trending .trendingprod .card .img-container {
+    width: 100%;
+}
+
+.sct-trending .trendingprod .card .img-container img {
+    width: 100%;
+}
+
+
+/*Estilos anuncio1*/
+
+.anuncio1 {
+    background-color: black;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.anuncio1 h2 {
+    color: var(--blanco);
+    font-size: 1.25rem;
+    margin-left: 80px;
+}
+
+.anuncio1 p {
+    color: var(--blanco);
+    font-size: 3.125rem;
+    margin-left: 80px;
+}
+
+.anuncio1 .p2 {
+    color: var(--celes-btn);
+    font-size: 3.125rem;
+}
+
+.anuncio1 #btn5 {
+    background-color: var(--negro);
+    border-color: var(--blanco);
+    color: var(--blanco);
+    font-size: 0.688rem;
+    margin-left: 80px;
+    padding: 7px 9px;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos sct-wall*/
+
+.sct-wall h2 {
+    color: var(--negro);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.sct-wall p {
+    color: var(--gris-b);
+    display: block;
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.sct-wall .card {
+    border: 1px solid rgba(117, 117, 117, 0.3);
+    border-radius: 12px;
+    color: var(--negro-titulo);
+    margin-bottom: 20px;
+}
+
+.sct-wall span {
+    color: var(--negro);
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin: 20px 40px 40px 120px;
+}
+
+.sct-wall .trendingprod {
+    display: block;
+    width: 80%;
+}
+
+.sct-wall .wall .card .img-container {
+    width: 100%;
+}
+
+.sct-wall .wall .card .img-container img {
+    width: 100%;
+}
+
+
+/*Estilos anuncio2*/
+
+.anuncio2 {
+    background-color: palevioletred;
+    width: 100%;
+}
+
+.anuncio2 h2 {
+    color: var(--blanco);
+    font-size: 1.875rem;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.anuncio2 p {
+    color: var(--blanco);
+    font-size: 1.125rem;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.anuncio2 .p2 {
+    color: var(--celes-btn);
+    font-size: 3.125rem;
+}
+
+.anuncio2 #btn5 {
+    background-color: var(--negro);
+    border-color: var(--blanco);
+    color: var(--blanco);
+    font-size: 0.688rem;
+    margin-left: 80px;
+    padding: 7px 9px;
+    margin-bottom: 80px;
+}
+
+
+/*Estilos coffee */
+
+.sct-coffee h2 {
+    color: var(--negro);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.sct-coffee p {
+    color: var(--gris-b);
+    display: block;
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.sct-coffee .card {
+    border: 1px solid rgba(117, 117, 117, 0.3);
+    border-radius: 12px;
+    color: var(--negro-titulo);
+    margin-bottom: 20px;
+}
+
+.sct-coffee span {
+    color: var(--negro);
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin: 20px 40px 40px 120px;
+}
+
+.sct-coffee .coffee {
+    display: block;
+    width: 80%;
+}
+
+.sct-coffee .coffee .card .img-container {
+    width: 100%;
+}
+
+.sct-coffee .coffee .card .img-container img {
+    width: 100%;
+}
+
+
+/* Estilos de latest*/
+
+.sct-latest h2 {
+    color: var(--negro);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.sct-latest p {
+    color: var(--gris-b);
+    display: block;
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sct-latest .card {
+    border: 1px solid rgba(117, 117, 117, 0.3);
+    border-radius: 12px;
+    color: var(--negro-titulo);
+    margin-bottom: 20px;
+}
+
+.sct-latest span {
+    color: var(--negro);
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin: 20px 40px 40px 120px;
+}
+
+.sct-latest .latest {
+    display: block;
+    width: 80%;
+}
+
+.sct-latest .latest .card .img-container {
+    width: 100%;
+}
+
+.sct-latest .latest .card .img-container img {
+    width: 100%;
+}
+
+.sct-latest #btn-view {
+    background-color: var(--negro);
+    border-color: var(--blanco);
+    color: var(--blanco);
+    font-size: 0.688rem;
+    margin-left: 80px;
+    padding: 7px 9px;
+}
+
+
+/*Estilos de face*/
+
+.sct-face h2 {
+    color: var(--negro);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.sct-face p {
+    color: var(--gris-b);
+    display: block;
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.sct-face .card {
+    border: 1px solid rgba(117, 117, 117, 0.3);
+    border-radius: 12px;
+    color: var(--negro-titulo);
+    margin-bottom: 20px;
+}
+
+.sct-face span {
+    color: var(--negro);
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin: 20px 40px 40px 120px;
+}
+
+.sct-face .face {
+    display: block;
+    width: 80%;
+}
+
+.sct-face .face .card .img-container {
+    width: 100%;
+}
+
+.sct-face .face .card .img-container img {
+    width: 100%;
+}
+
+.sct-latest #btn-view {
+    background-color: var(--blanco);
+    border-color: var(--celes-btn);
+    color: var(--celes-btn);
+    font-size: 0.68rem;
+    padding: 7px 9px;
+}
+
+
+/* Estilos anuncio3*/
+
+.anuncio3 {
+    background-color: black;
+    display: flex;
+    width: 100%;
+}
+
+.anuncio3 h2 {
+    color: var(--blanco);
+    font-size: 1.875rem;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.anuncio3 p {
+    color: var(--blanco);
+    font-size: 1.125rem;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.anuncio3 .p2 {
+    color: var(--celes-btn);
+    font-size: 3.125rem;
+}
+
+.anuncio3 #btn-view {
+    background-color: var(--celes-btn);
+    border-color: var(--blanco);
+    color: var(--blanco);
+    font-size: 0.688rem;
+    margin-left: 80px;
+    padding: 7px 9px;
+}
+
+
+/* Estilos de eleph */
+
+.sct-eleph h2 {
+    color: var(--negro);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.sct-eleph p {
+    color: var(--gris-b);
+    display: block;
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.sct-eleph .card {
+    border: 1px solid rgba(117, 117, 117, 0.3);
+    border-radius: 12px;
+    color: var(--negro-titulo);
+    margin-bottom: 20px;
+}
+
+.sct-eleph span {
+    color: var(--negro);
+    font-size: 0.87rem;
+    font-weight: bold;
+    margin: 20px 40px 40px 120px;
+}
+
+.sct-eleph .eleph {
+    display: block;
+    width: 80%;
+}
+
+.sct-eleph .eleph .card .img-container {
+    width: 100%;
+}
+
+.sct-eleph .eleph .card .img-container img {
+    width: 100%;
+}
+
+.sct-eleph #btn-view {
+    background-color: var(--negro);
+    border-color: var(--celes-btn);
+    color: var(--celes-btn);
+    font-size: 0.68rem;
+    padding: 7px 9px;
+    margin-left: 100px;
+}
+
+.sct-font {
+    display: block;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.sct-footer {
+    background-color: black;
+    color: var(--gris-b);
+    display: flow-root;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    #navnav {
+        color: black;
+        display: inline;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    /*posters*/
+    .sct-posters .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    .sct-posters .card header {
+        display: block;
+    }
+    .sct-posters .card span {
+        padding: 0 3%;
+    }
+    .sct-posters .card p {
+        padding: 0 3%;
+    }
+    .sct-posters .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*Trending*/
+    .sct-trending .card header {
+        display: block;
+    }
+    .sct-trending .card span {
+        padding: 0 3%;
+    }
+    .sct-trending .card p {
+        padding: 0 3%;
+    }
+    .sct-trending .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /* wall */
+    .sct-wall .card header {
+        display: block;
+    }
+    .sct-wall .card span {
+        padding: 0 3%;
+    }
+    .sct-wall .card p {
+        padding: 0 3%;
+    }
+    .sct-wall .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*coffee*/
+    .sct-coffee .card header {
+        display: block;
+    }
+    .sct-coffee .card span {
+        padding: 0 3%;
+    }
+    .sct-coffee .card p {
+        padding: 0 3%;
+    }
+    .sct-coffee .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*latest*/
+    .sct-latest .card header {
+        display: block;
+    }
+    .sct-latest .card span {
+        padding: 0 3%;
+    }
+    .sct-latest .card p {
+        padding: 0 3%;
+    }
+    .sct-latest .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*face*/
+    .sct-face .card header {
+        display: block;
+    }
+    .sct-face .card span {
+        padding: 0 3%;
+    }
+    .sct-face .card p {
+        padding: 0 3%;
+    }
+    .sct-face .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*face*/
+    .sct-eleph .card header {
+        display: block;
+    }
+    .sct-eleph .card span {
+        padding: 0 3%;
+    }
+    .sct-eleph .card p {
+        padding: 0 3%;
+    }
+    .sct-eleph .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    .sct-footer {
+        background-color: black;
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #navnav {
+        color: black;
+        display: inline;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    /*posters*/
+    .sct-posters .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    .sct-posters .card header {
+        display: block;
+    }
+    .sct-posters .card span {
+        padding: 0 3%;
+    }
+    .sct-posters .card p {
+        padding: 0 3%;
+    }
+    .sct-posters .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    .sct-posters .posters {
+        display: inline;
+        width: 100%;
+    }
+    .sct-posters .posters .card .img-container {
+        width: 100%;
+    }
+    .sct-posters .posters .card .img-container img {
+        width: 100%;
+    }
+    /*Trending*/
+    .sct-trending .card header {
+        display: block;
+    }
+    .sct-trending .card span {
+        padding: 0 3%;
+    }
+    .sct-trending .card p {
+        padding: 0 3%;
+    }
+    .sct-trending .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /* wall */
+    .sct-wall .card header {
+        display: block;
+    }
+    .sct-wall .card span {
+        padding: 0 3%;
+    }
+    .sct-wall .card p {
+        padding: 0 3%;
+    }
+    .sct-wall .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*coffee*/
+    .sct-coffee .card header {
+        display: block;
+    }
+    .sct-coffee .card span {
+        padding: 0 3%;
+    }
+    .sct-coffee .card p {
+        padding: 0 3%;
+    }
+    .sct-coffee .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*latest*/
+    .sct-latest .card header {
+        display: block;
+    }
+    .sct-latest .card span {
+        padding: 0 3%;
+    }
+    .sct-latest .card p {
+        padding: 0 3%;
+    }
+    .sct-latest .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*face*/
+    .sct-face .card header {
+        display: block;
+    }
+    .sct-face .card span {
+        padding: 0 3%;
+    }
+    .sct-face .card p {
+        padding: 0 3%;
+    }
+    .sct-face .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    /*face*/
+    .sct-eleph .card header {
+        display: block;
+    }
+    .sct-eleph .card span {
+        padding: 0 3%;
+    }
+    .sct-eleph .card p {
+        padding: 0 3%;
+    }
+    .sct-eleph .card {
+        border: 1px solid rgba(117, 117, 117, 0.3);
+        border-radius: 10px;
+        float: right;
+        margin: 30px 2%;
+        min-height: 200px;
+        width: 45%;
+    }
+    .sct-footer {
+        background-color: black;
+        display: flex;
+        width: 100%;
+    }
+}
